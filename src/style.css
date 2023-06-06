@@ -1,13 +1,13 @@
 body {
-    margin-left: 39%;
+    margin-left: 500px;
 }
 
 .logo {
-    background-color: rgb(80, 75, 88);
     width: 400px;
     height: 150px;
     display: flex;
     justify-content: center;
+    background-color: rgb(80, 75, 88);
 }
 
 a,
@@ -17,7 +17,7 @@ a,
 }
 
 .logo-text {
-    font-size: 50px;
+    font-size: 60px;
     margin-top: auto;
     margin-bottom: auto;
     color: white;
@@ -98,15 +98,15 @@ a,
     position: relative;
     background-color:rgb(80, 75, 88);
     width: 400px;
-    height: 120px;
+    height: 150px;
 }
 
 .banner-text {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-top: 10px;
     color: white;
-    padding-top: 25px;
+    padding-top: 47px;
 }
 
 .gamesBack {

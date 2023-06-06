@@ -13,7 +13,7 @@ class Game extends Component {
     }
 
     handleClick = (e) => {
-      document.querySelector(".notification").innerHTML = "Открываем клетку c номером " + e.target.innerHTML
+      document.querySelector(".notification").innerHTML = "Оnткрываем клетку c номером " + e.target.innerHTML
         setTimeout(() => {
             let randomNumber = Math.random()
 
