@@ -33,7 +33,7 @@ a,
     padding-bottom: 20px;
 }
 
-.linkWrap {
+.links {
     background-color: rgb(15, 22, 35);
     width: 87%;
     min-height: 35px;
@@ -110,7 +110,7 @@ a,
     padding-top: 47px;
 }
 
-.gamesBack {
+.gameslink {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -121,7 +121,7 @@ a,
     padding-bottom: 20px;
 }
 
-.notificationBlock {
+.notBlock {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -136,7 +136,7 @@ a,
     color: white;
     text-align: center;
 }
-.area{
+.main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -147,7 +147,7 @@ a,
     margin-left: auto;
     margin-right: auto;
 }
-.gameItem, .gameItemwin, .gameItemlose, .gameItemAddedAttempt{
+.gameItem, .gameItemwin, .gameItemlose, .gameItemAdd{
     background-color: rgb(180, 179, 179);
     width: 60px;
     height: 60px;
@@ -159,7 +159,7 @@ a,
     cursor: pointer;
 }
 
-.firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow {
+.first, .second, .third, .fourth, .fifth {
     display: flex;
     justify-content: space-around;
 }
@@ -178,7 +178,7 @@ a,
     background-size: cover!important;
     pointer-events: none;
 }
-.addedAttempt{
+.add{
     width: 60px;
     height: 60px;
     background-image: url("png/add.png")!important;

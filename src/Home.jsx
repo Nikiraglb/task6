@@ -10,13 +10,13 @@ function Home() {
         <p className="logo-text">Logo</p>
       </div>
       <div className="nav">
-            <span className="linkWrap">
+            <span className="links">
             <a href="/">Статьи</a>
             </span>
-            <span className="linkWrap">
+            <span className="links">
               <a href="/Games">Игра</a>
             </span>
-            <span className="linkWrap">
+            <span className="links">
               <a href="/">Тесты</a>
             </span>
       </div>
