@@ -52,7 +52,7 @@ class Game extends Component {
         <div className="nav gameList">
           <span className="links">Сапер</span>
           <span className="notBlock" >
-            <p className="attemps">Попыток:{this.numberAttemps.count}</p>
+            <p className="attemps">Осталось попыток:{this.numberAttemps.count}</p>
             <p className="notification">Выберите ячейку</p>
           </span>
 

@@ -1,9 +1,10 @@
 import React from 'react'
 import "./style.css"
+import { Link } from "react-router-dom";
 
 
 
-function Home() {
+function Articles() {
     return(
       <>
       <div className="logo">
@@ -11,17 +12,25 @@ function Home() {
       </div>
       <div className="nav">
             <span className="links">
-            <a href="/Articles">Статьи</a>
+            <a href="/">Статьи</a>
             </span>
             <span className="links">
-              <a href="/Games">Игра</a>
+              <a href="/">1</a>
             </span>
             <span className="links">
-              <a href="/">Тесты</a>
+              <a href="/">2</a>
+            </span>
+            <span className="links">
+              <a href="/">3</a>
             </span>
       </div>
-
       
+      <div className="gameslink">
+          <div className="links">
+            <Link to={"/"}>Назад</Link>
+          </div>
+        </div>
+
 
       <div className="banner">
         <p className="banner-text">Banner</p>
@@ -33,4 +42,4 @@ function Home() {
 
 }
 
-export default Home;
+export default Articles;
